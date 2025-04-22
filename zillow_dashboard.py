@@ -17,7 +17,7 @@ st.title("🏘️ Zillow Investment Dashboard")
 st.write("Explore rental yields, rent growth, price trends, and top cities for real estate investment.")
 
 # Load Data
-data = pd.read_csv("/zillow_investment_data.csv")
+data = pd.read_csv("zillow_investment_data.csv")
 data.columns = data.columns.str.strip()
 
 # Check for RegionName column
